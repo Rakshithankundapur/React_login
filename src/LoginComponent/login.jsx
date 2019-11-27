@@ -2,10 +2,6 @@ import React from 'react'
 import './login.scss'
 
 export class Login extends React.Component {
-  constructor(props) {
-    super(props)
-  }
-
   render() {
     return (
       <div className="base-container">
@@ -35,7 +31,7 @@ export class Login extends React.Component {
           </div>
         </div>
         <div className="footer">
-          <button type="button" className="btn">
+          <button className="btn" type="submit">
             Login
           </button>
         </div>
